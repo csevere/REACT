@@ -35,7 +35,8 @@ function Team(props){
 // var with name of the Component
 //the only REQUIRED property, is render 
 //whenever you want to do something dynamic, you want to createClass through var; use it when we need state
-//necessary when we need stuff to change  
+//necessary when we need stuff to change
+// componemt is the smart part  
 
 var Counter = React.createClass({
 

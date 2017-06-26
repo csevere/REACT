@@ -6,7 +6,7 @@ var Coin = React.createClass(
 			'http://www.marshu.com/articles/images-website/articles/presidents-on-coins/quarter-coin-head.jpg'		
 		],
 
-		getInitialState() {
+		getInitialState: function() {
 			return{
 				image: this.sides[0]
 			}
